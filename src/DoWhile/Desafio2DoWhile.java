@@ -51,7 +51,7 @@ public class Desafio2DoWhile {
 					
 			   }
 			   cont++;
-		  }while(continua == true);
+		  }while(continua);
 		  JOptionPane.showMessageDialog(null, "Salário Total: R$" + salarioTotal+ "\nSalário Feminino: R$"+ salarioFem+ "\nSalário Masculino: R$"+salarioMasc, "Teste", -1);
 		  
 	 }

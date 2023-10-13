@@ -1,4 +1,4 @@
-package IfIfElse;
+package testes;
 
 import javax.swing.JOptionPane;
 

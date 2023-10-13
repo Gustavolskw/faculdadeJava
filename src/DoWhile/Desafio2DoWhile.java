@@ -52,7 +52,8 @@ public class Desafio2DoWhile {
 			   }
 			   cont++;
 		  }while(continua);
-		  JOptionPane.showMessageDialog(null, "Salário Total: R$" + salarioTotal+ "\nSalário Feminino: R$"+ salarioFem+ "\nSalário Masculino: R$"+salarioMasc, "Teste", -1);
+		  JOptionPane.showMessageDialog(null, "Salário Total: R$" + salarioTotal+ "\nSalário Feminino: R$"+
+				  salarioFem+ "\nSalário Masculino: R$"+salarioMasc, "Teste", -1);
 		  
 	 }
 	 public static float requesitaSalario(){
@@ -66,7 +67,9 @@ public class Desafio2DoWhile {
 	 }
 	 public static Object requesitaGenero(){
 		  Object[] options = {"Masculino", "Feminino"};
-		  Object genero = JOptionPane.showOptionDialog(null, "Escolha seu Genero: ","<Genero>", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE,null,  options, options[1]);
+		  Object genero = JOptionPane.showOptionDialog(null, "Escolha seu Genero: ","<Genero>",
+				  JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE,null,  options, options[1]);
 		  return genero;
 	 }
+
 }

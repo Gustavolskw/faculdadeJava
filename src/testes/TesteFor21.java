@@ -1,4 +1,4 @@
-package For;
+package testes;
 import javax.swing.JOptionPane;
 import java.util.Random;
 public class TesteFor21 {

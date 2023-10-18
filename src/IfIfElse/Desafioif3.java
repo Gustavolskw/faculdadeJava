@@ -56,9 +56,9 @@ public class Desafioif3 {
         for (int i = 0; i < 4; i++) {
             totalHorasMensais += horasSemanal[i];
         }
-        if (totalHorasMensais > 160) {
-            totalHE = totalHorasMensais - 160;
-        } else if (totalHorasMensais == 160) {
+        if (totalHorasMensais > 220) {
+            totalHE = totalHorasMensais - 220;
+        } else if (totalHorasMensais == 220) {
             totalHE = 0;
         } else {
             horasNegativas = totalHorasMensais - 160;

@@ -1,4 +1,4 @@
-package testes;
+package Testes;
 
 import javax.swing.JOptionPane;
 

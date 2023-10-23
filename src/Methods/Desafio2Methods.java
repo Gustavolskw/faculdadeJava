@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.text.MaskFormatter;
 import java.text.ParseException;
 
+
 /*DESAFIO 2
 Construa um programa que solicite ao usuário apenas os números de seu telefone.
 (ex.: 47987654321). Em seguida, por meio de um método, você construirá uma
@@ -26,6 +27,7 @@ public class Desafio2Methods {
 		  }catch(ParseException e )	{
 			   e.printStackTrace();
 		  }
+		 
 	 }
 	 public static JFormattedTextField requestTelephone(MaskFormatter mascara){
 		  

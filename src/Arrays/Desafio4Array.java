@@ -23,15 +23,15 @@ public class Desafio4Array {
 			   
 			   
 		  }
-		  		for (int j = 0; j < 5; j++) {
-					 for (int k = 0; k < 4; k++) {
-						  if (array[k] > array[k + 1]) {
-							   aux = array[k];
-							   array[k] = array[k + 1];
-							   array[k + 1] = aux;
-						  }
-					 }
-				}
+		  for (int j = 0; j < 5; j++) {
+			   for (int k = 0; k < 4; k++) {
+					if (array[k] > array[k + 1]) {
+						 aux = array[k];
+						 array[k] = array[k + 1];
+						 array[k + 1] = aux;
+					}
+			   }
+		  }
 		  
 		  StringBuilder arrayString = new StringBuilder();
 		  for (int i = 0; i < array.length; i++) {

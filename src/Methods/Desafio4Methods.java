@@ -38,14 +38,14 @@ public class Desafio4Methods {
 	 public static int giveRandNumber(){
 		  int randNum;
 		  Random randShot = new Random();
-		  randNum = randShot.nextInt(30);
+		  randNum = randShot.nextInt(31);
 		  return randNum;
 	 }
 	 public static int guessTry(int order ){
 		  int tryGuess;
 		  
-		  tryGuess = Integer.parseInt(JOptionPane.showInputDialog(null,
-				  "Digite um numero entre (0 e 30)", "Tentativa Nº"+(order+1), JOptionPane.INFORMATION_MESSAGE));
+			   tryGuess = Integer.parseInt(JOptionPane.showInputDialog(null,
+					   "Digite um numero entre (0 e 30)", "Tentativa Nº" + (order + 1), JOptionPane.INFORMATION_MESSAGE));
 		  return tryGuess;
 	 }
 }

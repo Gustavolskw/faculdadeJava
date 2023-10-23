@@ -18,7 +18,7 @@ public class Desafio1Methods {
 		  
 		  
 	 }
-	 public static double requestGrade(){
+	 protected static double requestGrade(){
 		  double grade;
 		  grade = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite a Sua Nota: ", "Nota do Usuario", -1 ));
 		  return grade;

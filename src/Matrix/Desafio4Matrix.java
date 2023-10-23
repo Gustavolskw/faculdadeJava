@@ -19,7 +19,7 @@ public class Desafio4Matrix {
 		 for(int i = 0; i <4 ; i++) {
 			  for (int j = 0; j < 4; j++) {
 				   
-				   matrix[i][j] = random.nextInt(55);
+				   matrix[i][j] = random.nextInt(100);
 			  }
 		 }
 		 for(int i = 0; i <4 ; i++) {

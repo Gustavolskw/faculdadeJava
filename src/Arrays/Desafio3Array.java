@@ -20,7 +20,7 @@ public class Desafio3Array {
 			   notas[i] = Float.parseFloat(JOptionPane.showInputDialog(null,
 					   "Nota do "+(i+1)+ "º Aluno", "Notas", -1 ));
 			   }while(notas[i]<0 || notas[i]>10);
-			   if(notas[i] > 7 ){
+			   if(notas[i] >= 7 ){
 					acimaDaMedia++;
 			   }
 		  }

@@ -24,9 +24,9 @@ public class Desafio2Array {
 			   for (int i = 0; i < 3; i++) {
 					
 					do {
-						 primBimestre[i] = random.nextInt(11) ;
-						 /*primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ",
-								 "<Notas>", -1));*/
+						
+						 primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ",
+								 "<Notas>", -1));
 					} while (primBimestre[i] < 0 || primBimestre[i] > 10);
 					primBimestreVar[i] = primBimestre[i];
 			   }
@@ -34,8 +34,8 @@ public class Desafio2Array {
 			   for (int i = 3; i < 6; i++) {
 					
 					do {
-						 primBimestre[i] = random.nextInt(11);
-						// primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
+						
+						primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
 					} while (primBimestre[i] < 0 || primBimestre[i] > 10);
 					primBimestreVar[i] = primBimestre[i];
 			   }
@@ -43,8 +43,8 @@ public class Desafio2Array {
 			   for (int i = 6; i < 9; i++) {
 					
 					do {
-						 primBimestre[i] = random.nextInt(11);
-						// primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
+						
+						primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
 					} while (primBimestre[i] < 0 || primBimestre[i] > 10);
 					primBimestreVar[i] = primBimestre[i];
 			   }
@@ -52,8 +52,8 @@ public class Desafio2Array {
 			   for (int i = 9; i < 12; i++) {
 					
 					do {
-						 primBimestre[i] = random.nextInt(11);
-						// primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ","<Notas>", -1));
+						
+						 primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ","<Notas>", -1));
 					} while (primBimestre[i] < 0 || primBimestre[i] > 10);
 					primBimestreVar[i] = primBimestre[i];
 			   }
@@ -61,8 +61,7 @@ public class Desafio2Array {
 			   for (int i = 12; i < 15; i++) {
 					
 					do {
-						 primBimestre[i] = random.nextInt(11);
-						// primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
+						 primBimestre[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Notas do " + (k + 1) + " Aluno ", "<Notas>", -1));
 					} while (primBimestre[i] < 0 || primBimestre[i] > 10);
 					primBimestreVar[i] = primBimestre[i];
 			   }

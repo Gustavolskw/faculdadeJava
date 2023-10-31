@@ -66,6 +66,7 @@ public class TesteListas {
 		  for(int i = 0; i<12; i++){
 			   int sorteioVal = sorteio.nextInt(10)+1;
 			   
+			   
 			   if(sorteioVal == 2 || sorteioVal == 4 || sorteioVal == 6 || sorteioVal == 8 || sorteioVal == 10) {
 					adotadoList[i] = "Sim";
 					vacinadoList[i] ="Não";

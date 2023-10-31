@@ -332,6 +332,7 @@ public class DesafioFinal {
 	public static String showWaitList(int listaDeEspera,String []tipos,  String []dadosPessoais){
 		 StringBuilder imprimeListaDeEspera= new StringBuilder();
 		 
+		 
 			  for (int i = 0; i < 5; i++) {
 				   imprimeListaDeEspera.append("["+listaDeEspera +"] - \n"+ tipos[i] + " - " + dadosPessoais[i] + "\n");
 			  }
